@@ -1,0 +1,12 @@
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+*.egg-info
+*.pyc
+lib
+lib64
+replace/__pycache__/
