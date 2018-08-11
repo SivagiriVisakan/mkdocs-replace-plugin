@@ -30,7 +30,7 @@ class ReplacePlugin(BasePlugin):
 
     # This event is chosen as we need the markdown to be parsed for including other markdown file,
     # (if any) using markdown-include
-    def on_page_content(self, html, page, config, site_navigation):
+    def on_page_content(self, html, page, config, site_navigation=None, **kwargs):
 
         match_iter = re.finditer(MATCH_REGEX, html)
 
